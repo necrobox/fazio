@@ -47,5 +47,3 @@ Directories to scan:
 [It happens](https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/)
 that popular npm packages are got compromised and you have to be sure that you don't have one installed
 on your machine. Fazio does the job.
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
