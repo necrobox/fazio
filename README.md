@@ -1,6 +1,6 @@
-# fazio
+# @necrobox/fazio
 
-[![npm](https://img.shields.io/npm/v/@funboxteam/fazio.svg)](https://www.npmjs.com/package/@funboxteam/fazio)
+[![npm](https://img.shields.io/npm/v/@necrobox/fazio.svg)](https://www.npmjs.com/package/@necrobox/fazio)
 
 A tool for sneaking around your filesystem to find the installed npm deps you asking for.
 
@@ -13,7 +13,7 @@ on your machine. Fazio does the job.
 ## Installation
 
 ```
-$ npm install -g @funboxteam/fazio
+$ npm install -g @necrobox/fazio
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ By default Fazio also checks the globally installed deps. If you want to skip it
 You can use the package via npx without installing the Fazio globally:
 
 ```
-$ npx @funboxteam/fazio --package 'ua-parser-js@0.7.29 || 0.8.0 || 1.0.0' --directory ~ --verbose
+$ npx @necrobox/fazio --package 'ua-parser-js@0.7.29 || 0.8.0 || 1.0.0' --directory ~ --verbose
 npx: installed 5 in 0.908s
 Directories to scan:
   /home/ai
